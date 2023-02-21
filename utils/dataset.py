@@ -115,9 +115,9 @@ def get_loader(image_dir,
 
 
 if __name__ == '__main__':
-    vocab_path = '../data/vocab.pkl'
-    image_dir = '../data/images'
-    caption_json = '../data/debugging_captions.json'
+    vocab_path = '/content/GP_project1/data/new_data/vocab.pkl'
+    image_dir = '/content/GP_project1/data/images'
+    caption_json = '/content/GP_project1/data/new_data/debugging_captions.json'
     file_list = '../data/debugging.txt'
     batch_size = 6
     resize = 256
